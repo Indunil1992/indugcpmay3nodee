@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7cb18da2-e0f5-42f8-805d-5d38b2e3d7fe": {
+        "id": "7cb18da2-e0f5-42f8-805d-5d38b2e3d7fe",
+        "parent": null,
+        "name": "indugcpmay3nodee.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indugcpmay3nodee.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 12
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "indugcpmay3nodee"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1620017064554
+      },
+      "b4054203-dffe-42bc-a3fa-0d04904dd687": {
+        "id": "b4054203-dffe-42bc-a3fa-0d04904dd687",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "fa62badd-5dcb-4f6f-a0ff-093f9d7ab113": {
+        "id": "fa62badd-5dcb-4f6f-a0ff-093f9d7ab113",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "7cb18da2-e0f5-42f8-805d-5d38b2e3d7fe"
+    ],
+    "currentFileId": "7cb18da2-e0f5-42f8-805d-5d38b2e3d7fe",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.4",
+    "projectName": "indugcpmay3nodee",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1620017112997
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indugcpmay3nodee",
+      "url": "https://github.com/Indunil1992/indugcpmay3nodee"
+    }
+  }
+}
