@@ -11,14 +11,14 @@
         "isRemovable": true,
         "filePath": "indugcpmay3nodee.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 12
+          "lineNumber": 5,
+          "column": 66
         },
         "config": {
-          "runtime": "nodejs8",
+          "runtime": "nodejs10",
           "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
+          "timeout": 63,
+          "memory": 256,
           "triggerType": 0,
           "name": "indugcpmay3nodee"
         },
@@ -28,7 +28,16 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1620017064554
+        "lastUpdated": 1620020277832,
+        "testCases": {
+          "aa8607e1-d504-4e2e-9880-00317efbcfd4": {
+            "id": "aa8607e1-d504-4e2e-9880-00317efbcfd4",
+            "name": "Test event",
+            "functionId": "7cb18da2-e0f5-42f8-805d-5d38b2e3d7fe",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       },
       "b4054203-dffe-42bc-a3fa-0d04904dd687": {
         "id": "b4054203-dffe-42bc-a3fa-0d04904dd687",
@@ -49,6 +58,55 @@
         "children": [],
         "isRemovable": false,
         "filePath": "main.py"
+      },
+      "0c64ee22-d2c4-4d46-91aa-2b3629d07c71": {
+        "id": "0c64ee22-d2c4-4d46-91aa-2b3629d07c71",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "a65a1957-580c-427c-92a1-89609d7209c4": {
+        "id": "a65a1957-580c-427c-92a1-89609d7209c4",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      },
+      "2761b7cc-9ad8-4f4f-91a2-e7b8e5aba6e2": {
+        "id": "2761b7cc-9ad8-4f4f-91a2-e7b8e5aba6e2",
+        "parent": null,
+        "name": "testPythonFile.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testPythonFile.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "testPythonFile"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1620020275877
       }
     },
     "openFiles": [
@@ -60,17 +118,30 @@
         "name": "http-trigger",
         "type": "http-trigger",
         "config": {}
+      },
+      "datastore": {
+        "name": "datastore",
+        "type": "CloudDatastore",
+        "config": {}
       }
     },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -82,7 +153,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1620017112997
+    "lastSave": 1620020708947
   },
   "VCS_STATE": {
     "provider": "GitHub",

@@ -1,6 +1,5 @@
 {
-  "name": "indugcpmay3nodee",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {}
+    "dependencies": {
+        "googleapis": "29.0.0"
+    }
 }
